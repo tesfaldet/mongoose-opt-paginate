@@ -1,6 +1,6 @@
 {
   "name": "mongoose-opt-paginate",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "description": "Optimized pagination using indexes (no cursor.skip) with fallback. Used with Mongoose + Express.",
   "main": "index.js",
   "dependencies": {
