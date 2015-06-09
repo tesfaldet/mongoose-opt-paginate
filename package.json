@@ -1,6 +1,6 @@
 {
   "name": "mongoose-opt-paginate",
-  "version": "0.0.11",
+  "version": "0.1.0",
   "description": "Optimized pagination using indexes (no cursor.skip) with fallback. Used with Mongoose + Express.",
   "main": "index.js",
   "dependencies": {
@@ -11,9 +11,17 @@
     "lodash": "^3.9.3",
     "mongoose": "^4.0.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "istanbul": "^0.3.14",
+    "jscs": "^1.13.1",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ci": "npm run lint && npm test",
+    "lint": "jshint . && jscs .",
+    "test": "make unit && make integration && istanbul report"
   },
   "repository": {
     "type": "git",

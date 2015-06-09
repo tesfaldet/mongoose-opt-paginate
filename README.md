@@ -65,15 +65,18 @@ If sorting (with more than by _id since it's always included) and a matching com
 
 ### Contributing
 
-Looking to contribute? Awesome! Make sure you've got [EditorConfig](http://editorconfig.org/#download) installed to maintain the existing code style. Tests and linting will be added soon, so don't worry about them (yet).
+Looking to contribute? Awesome! Make sure you've got [EditorConfig](http://editorconfig.org/#download) installed to maintain the existing code style. Test and lint your code using `npm run ci`.
 
 ### Todo's
-- Write tests (preferably gulp) and linting (jscs?)
+- Write unit and integration tests
 - Documentation
 
 ### Release History
+#### 0.1.0
+- Testing stack has been finalized. Linting has been included.
+
 ##### 0.0.11
 - Returning results as opposed to ending route by calling res.json
 
-###License
+### License
 MIT
