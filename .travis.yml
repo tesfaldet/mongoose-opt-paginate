@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-	— "0.10"
+  - "0.10"
 install:
-	— npm install
+  - npm install
 before_script:
-	— npm view mongoose-opt-paginate
+  - npm view mongoose-opt-paginate
 script:
-  — npm run test
+  - npm run test
