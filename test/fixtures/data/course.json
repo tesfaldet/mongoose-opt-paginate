@@ -1,0 +1,86 @@
+[
+{
+	"_id" : "53bac0ba19a4b40000bcb2df",
+	"name" : "Math 201",
+	"code" : "M201",
+	"description" : "Lorem ipsum Aute esse amet in in reprehenderit in veniam nisi commodo nulla laborum do nulla ut cillum proident esse sunt in deserunt esse esse occaecat Duis exercitation do do in sunt exercitation in cillum dolore officia qui quis quis cupidatat officia magna Duis sint eu eiusmod consequat consectetur ut labore sint labore ex pariatur Excepteur in sit non Excepteur voluptate eu eiusmod veniam sit aliquip mollit consectetur id cupidatat id veniam exercitation dolor proident incididunt dolor officia culpa reprehenderit irure nostrud cillum adipisicing Excepteur fugiat commodo quis in irure Excepteur dolore ut laborum tempor sit reprehenderit cupidatat amet amet esse consectetur occaecat Duis cillum in laborum ex laborum laboris esse proident proident est dolor consequat fugiat in in qui ex commodo in aute velit deserunt Ut consequat culpa voluptate commodo esse voluptate sed dolore sed non occaecat minim ex do sed cupidatat commodo sunt ex aliqua non nisi."
+},
+{
+	"_id" : "53babff119a4b40000bcb2dd",
+	"name" : "Math 301",
+	"code" : "M301",
+	"description" : "Lorem ipsum Aute esse amet in in reprehenderit in veniam nisi commodo nulla laborum do nulla ut cillum proident esse sunt in deserunt esse esse occaecat Duis exercitation do do in sunt exercitation in cillum dolore officia qui quis quis cupidatat officia magna Duis sint eu eiusmod consequat consectetur ut labore sint labore ex pariatur Excepteur in sit non Excepteur voluptate eu eiusmod veniam sit aliquip mollit consectetur id cupidatat id veniam exercitation dolor proident incididunt dolor officia culpa reprehenderit irure nostrud cillum adipisicing Excepteur fugiat commodo quis in irure Excepteur dolore ut laborum tempor sit reprehenderit cupidatat amet amet esse consectetur occaecat Duis cillum in laborum ex laborum laboris esse proident proident est dolor consequat fugiat in in qui ex commodo in aute velit deserunt Ut consequat culpa voluptate commodo esse voluptate sed dolore sed non occaecat minim ex do sed cupidatat commodo sunt ex aliqua non nisi."
+},
+{
+	"_id" : "54230aff282a1115003542d4",
+	"description" : "This course will provide you with the crucial foundational skills to shift from being an individual contributor to a well-respected manager who can achieve team synergy and drive bottom-line performance.\n \nUsing guided role play, exercises and skill practice sessions, you will discover how to adjust your management style when necessary and tackle new challenges. In-depth skills practice using the Situational Leadership II ® model combined with interactive activities will take you through the paces of motivation, delegation, coaching, communication, performance management and leadership. You will be able to improve on key areas, play to your strengths and get the best results from every team member.",
+	"code" : "MGMT100",
+	"name" : "Management 100"
+},
+{
+	"_id" : "54230b67282a1115003542d8",
+	"description" : "Read the Code of Ethics and Business policy located within course content.\nAfter viewing the document, a quiz will be released that asks you to confirm that you understand and agree to the policies described.",
+	"code" : "ETHICS2014",
+	"name" : "Code of Ethics and Business Conduct"
+},
+{
+	"_id" : "54230d2c282a1115003542eb",
+	"description" : "At this company we rely on technology to complete our daily tasks. We are now implementing Microsoft Lync 2010 to enhance communications across the company.\nIn this course you will learn how to: \n \tSet up a personalized profile and devices (audio and video)\n \tUse the basic features and functions of Lync to enhance your work flow\n \tKnow where to access resources for troubleshooting prior to contacting IT for assistance.",
+	"code" : "LYNC2014",
+	"name" : "MS Lync"
+},
+{
+	"_id" : "53babfa519a4b40000bcb2da",
+	"name" : "Management 200",
+	"code" : "Mgmt200",
+	"description" : "Lorem ipsum Aute esse amet in in reprehenderit in veniam nisi commodo nulla laborum do nulla ut cillum proident esse sunt in deserunt esse esse occaecat Duis exercitation do do in sunt exercitation in cillum dolore officia qui quis quis cupidatat officia magna Duis sint eu eiusmod consequat consectetur ut labore sint labore ex pariatur Excepteur in sit non Excepteur voluptate eu eiusmod veniam sit aliquip mollit consectetur id cupidatat id veniam exercitation dolor proident incididunt dolor officia culpa reprehenderit irure nostrud cillum adipisicing Excepteur fugiat commodo quis in irure Excepteur dolore ut laborum tempor sit reprehenderit cupidatat amet amet esse consectetur occaecat Duis cillum in laborum ex laborum laboris esse proident proident est dolor consequat fugiat in in qui ex commodo in aute velit deserunt Ut consequat culpa voluptate commodo esse voluptate sed dolore sed non occaecat minim ex do sed cupidatat commodo sunt ex aliqua non nisi."
+},
+{
+	"_id" : "53babfb119a4b40000bcb2db",
+	"name" : "Public Speaking 200",
+	"code" : "PS200",
+	"description" : "Lorem ipsum Aute esse amet in in reprehenderit in veniam nisi commodo nulla laborum do nulla ut cillum proident esse sunt in deserunt esse esse occaecat Duis exercitation do do in sunt exercitation in cillum dolore officia qui quis quis cupidatat officia magna Duis sint eu eiusmod consequat consectetur ut labore sint labore ex pariatur Excepteur in sit non Excepteur voluptate eu eiusmod veniam sit aliquip mollit consectetur id cupidatat id veniam exercitation dolor proident incididunt dolor officia culpa reprehenderit irure nostrud cillum adipisicing Excepteur fugiat commodo quis in irure Excepteur dolore ut laborum tempor sit reprehenderit cupidatat amet amet esse consectetur occaecat Duis cillum in laborum ex laborum laboris esse proident proident est dolor consequat fugiat in in qui ex commodo in aute velit deserunt Ut consequat culpa voluptate commodo esse voluptate sed dolore sed non occaecat minim ex do sed cupidatat commodo sunt ex aliqua non nisi."
+},
+{
+	"_id" : "53babfbb19a4b40000bcb2dc",
+	"name" : "Management 100",
+	"code" : "Mgmt100",
+	"description": "This course will provide you with the crucial foundational skills to shift from being an individual contributor to a well-respected manager who can achieve team synergy and drive bottom-line performance.\n\nUsing guided role play, exercises and skill practice sessions, you will discover how to adjust your management style when necessary and tackle new challenges. In-depth skills practice using the Situational Leadership II ® model combined with interactive activities will take you through the paces of motivation, delegation, coaching, communication, performance management and leadership. You will be able to improve on key areas, play to your strengths and get the best results from every team member."
+},
+{
+	"_id" : "53bac0fb19a4b40000bcb2e0",
+	"name" : "Basket Weaving 100",
+	"code" : "BW100",
+	"description" : "Lorem ipsum Aute esse amet in in reprehenderit in veniam nisi commodo nulla laborum do nulla ut cillum proident esse sunt in deserunt esse esse occaecat Duis exercitation do do in sunt exercitation in cillum dolore officia qui quis quis cupidatat officia magna Duis sint eu eiusmod consequat consectetur ut labore sint labore ex pariatur Excepteur in sit non Excepteur voluptate eu eiusmod veniam sit aliquip mollit consectetur id cupidatat id veniam exercitation dolor proident incididunt dolor officia culpa reprehenderit irure nostrud cillum adipisicing Excepteur fugiat commodo quis in irure Excepteur dolore ut laborum tempor sit reprehenderit cupidatat amet amet esse consectetur occaecat Duis cillum in laborum ex laborum laboris esse proident proident est dolor consequat fugiat in in qui ex commodo in aute velit deserunt Ut consequat culpa voluptate commodo esse voluptate sed dolore sed non occaecat minim ex do sed cupidatat commodo sunt ex aliqua non nisi."
+},
+{
+	"_id" : "53bac0ad19a4b40000bcb2de",
+	"name" : "Math 101",
+	"code" : "M101",
+	"description" : "Lorem ipsum Aute esse amet in in reprehenderit in veniam nisi commodo nulla laborum do nulla ut cillum proident esse sunt in deserunt esse esse occaecat Duis exercitation do do in sunt exercitation in cillum dolore officia qui quis quis cupidatat officia magna Duis sint eu eiusmod consequat consectetur ut labore sint labore ex pariatur Excepteur in sit non Excepteur voluptate eu eiusmod veniam sit aliquip mollit consectetur id cupidatat id veniam exercitation dolor proident incididunt dolor officia culpa reprehenderit irure nostrud cillum adipisicing Excepteur fugiat commodo quis in irure Excepteur dolore ut laborum tempor sit reprehenderit cupidatat amet amet esse consectetur occaecat Duis cillum in laborum ex laborum laboris esse proident proident est dolor consequat fugiat in in qui ex commodo in aute velit deserunt Ut consequat culpa voluptate commodo esse voluptate sed dolore sed non occaecat minim ex do sed cupidatat commodo sunt ex aliqua non nisi."
+},
+{
+	"_id" : "54230b36282a1115003542d6",
+	"description" : "Employee health and safety is very important. This course provides you with information to keep our workplace safe.\n\nThis course is organized into six modules including this one. You may start with any module, perhaps the one that interests you the most. There will be a short assessment based on each of the modules.",
+	"code" : "HS2014",
+	"name" : "Health & Safety 2014"
+},
+{
+	"_id" : "54230d74282a1115003542ed",
+	"description" : "Before working through this course, you will need to know a good amount of CSS, HTML, a little jQuery, and SASS. In this first lesson, I’ll overview what we will be developing. You’ll also get to see the layout and style of the UI inside of Photoshop.",
+	"code" : "DBP100",
+	"name" : "Design Best Practices"
+},
+{
+	"_id" : "54230ebc282a1115003542ef",
+	"description" : "Why should anyone be led by you? \nIt's a simple question that executives often find difficult to answer. \nThis program explores the six demands of leadership and the skills required to lead effectively. An intensive five days will take you from the personal dimensions of your own leadership style and capability through to the organizational dimensions of leading change and shaping corporate culture. \nThrough 360-degree feedback, you'll explore your own ability to be an effective leader. And you'll learn about practical tools and strategies to help you focus your energies and have more influence in the real world.",
+	"code" : "LE102",
+	"name" : "Leadership Essentials"
+},
+{
+	"_id" : "54230f15282a1115003542f5",
+	"description" : "Anyone who has experience managing staff and/or working within a Human Resources department will know that the success of an organization is greatly impacted by the success of staff management. From recruitment to goal setting and topgrading, performance reviews to employee retention and conflict resolution to managing change, HR professionals and line managers keep the integral cogs turning.\nRecently, with the impact of a global recession, HR professionals have faced new challenges resulting from budget cuts, redundancies and mergers. But now the tides are turning once again, and with an increasingly positive economic shift, organizations are looking to the future by consolidating their HR effectiveness and efficiency. The new focus is staff retention and building a loyal workforce that will ensure an organizations’ future success.\nThe Human Resources Excellency – ‘How To Get and Keep Your Winning Team’ program, includes your eLearning access and book, covers all the essential elements to building and keeping the resources you want e.g. Recruitment, Topgrading, Performance Reviews and Target Setting, and Staff Retention.",
+	"code" : "HRE103",
+	"name" : "Human Resources Essentials"
+}
+]
