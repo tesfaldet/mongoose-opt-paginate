@@ -72,6 +72,10 @@ Looking to contribute? Awesome! Make sure you've got [EditorConfig](http://edito
 - Documentation
 
 ### Release History
+#### 0.3.0
+- Added some unit tests to mongoosePaginateSpec.js.
+- Can now provide both options.before and options.after. The library handles the logic of which to use.
+
 #### 0.2.0
 - expressPaginate.js tests completed. Started writing mongoosePaginate.js tests.
 - FIX: sortBy params including non-alphabetical characters being replaced with empty space during splitting of param string.
