@@ -65,7 +65,7 @@ If sorting (with more than by _id since it's always included) and a matching com
 
 ### Contributing
 
-Looking to contribute? Awesome! Make sure you've got [EditorConfig](http://editorconfig.org/#download) installed to maintain the existing code style. Test and lint your code using `npm run ci`.
+Looking to contribute? Awesome! Make sure you've got [EditorConfig](http://editorconfig.org/#download) installed to maintain the existing code style. Send your PRs to the dev branch. Before opening a PR, test and lint your code using `npm run ci`.
 
 ### Todo's
 - Write unit and integration tests
