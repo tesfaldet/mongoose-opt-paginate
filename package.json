@@ -1,20 +1,18 @@
 {
   "name": "mongoose-opt-paginate",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Optimized pagination using indexes (no cursor.skip) with fallback. Used with Mongoose + Express.",
   "main": "index.js",
   "dependencies": {
+    "bluebird": "^2.10.2",
     "clone": "^1.0.2",
     "http-errors": "^1.3.1",
-    "async": "^1.1.0",
-    "deasync": "^0.1.0",
     "lodash": "^3.9.3"
   },
   "devDependencies": {
-    "bluebird": "^2.9.30",
     "chai": "^3.0.0",
-    "istanbul": "^0.3.14",
-    "jscs": "^1.13.1",
+    "istanbul": "^0.3.22",
+    "jscs": "^2.2.1",
     "jshint": "^2.8.0",
     "mocha": "^2.2.5",
     "require-directory": "^2.1.1"
@@ -23,11 +21,11 @@
     "mongoose": "^4.0.4"
   },
   "scripts": {
+    "start": "mongod --fork --port 27888 --logpath ./mongo/mongodb.log --dbpath ./mongo",
     "ci": "npm run lint && npm test",
     "lint": "jshint . && jscs .",
-    "pretest": "mongod --config ./.mongodb.yml",
-    "test": "make unit && make integration && istanbul report || npm stop",
-    "posttest": "npm stop",
+    "unit": "istanbul cover --root lib --dir ./coverage/unit ./node_modules/mocha/bin/_mocha -- test/unit",
+    "test": "npm run unit && istanbul report",
     "stop": "mongo admin --port 27888 --eval 'db.shutdownServer()'"
   },
   "repository": {
