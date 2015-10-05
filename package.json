@@ -15,6 +15,7 @@
     "jscs": "^2.2.1",
     "jshint": "^2.8.0",
     "mocha": "^2.2.5",
+    "mongoose": "^4.1.10",
     "require-directory": "^2.1.1"
   },
   "peerDependencies": {
