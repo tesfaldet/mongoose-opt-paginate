@@ -1,0 +1,20 @@
+machine:
+  services:
+    - docker
+
+dependencies:
+  pre:
+    - sudo /etc/init.d/mongodb stop
+    - sudo pip install --upgrade docker-compose==1.5.2
+    - docker-compose pull
+    - docker-compose up -d
+  cache_directories:
+    - node_modules
+
+test:
+  pre:
+    - npm view mongoose-opt-paginate
+    - npm start
+  override:
+    - npm run ci
+
