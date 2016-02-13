@@ -22,12 +22,10 @@
     "mongoose": "^4.0.4"
   },
   "scripts": {
-    "start": "mongod --fork --port 27888 --logpath ./mongo/mongodb.log --dbpath ./mongo",
     "ci": "npm run lint && npm test",
     "lint": "jshint . && jscs .",
     "unit": "istanbul cover --root lib --dir ./coverage/unit ./node_modules/mocha/bin/_mocha -- test/unit",
-    "test": "npm run unit && istanbul report",
-    "stop": "mongo admin --port 27888 --eval 'db.shutdownServer()'"
+    "test": "npm run unit && istanbul report"
   },
   "repository": {
     "type": "git",

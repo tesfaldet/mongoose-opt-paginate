@@ -1,8 +1,0 @@
-processManagement:
-  fork: true
-net:
-  port: 27888
-systemLog:
-  destination: file
-  path: "./mongodb.log"
-  logAppend: true

@@ -1,12 +1,16 @@
+sudo: required
 language: node_js
-node_js:
-  - "0.10"
 services:
-  - mongodb
+  - docker
+node_js:
+  - "4.2"
+  - "4.3"
+before_install:
+  - docker pull mongo:3.0.9
+  - docker run -d -p 27017:27017 mongo:3.0.9
 install:
   - npm install
 before_script:
   - npm view mongoose-opt-paginate
-  - npm start
 script:
   - npm run ci
