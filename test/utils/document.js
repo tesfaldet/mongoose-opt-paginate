@@ -19,7 +19,7 @@ module.exports.ensureConnected = function() {
 
 		registerDisconnect();
 
-		var testMongoPort = 27888,
+		var testMongoPort = 27017,
 			testMongoDbName = 'mop_test',
 			dbUrl = 'mongodb://localhost:' + testMongoPort + '/' + testMongoDbName;
 
