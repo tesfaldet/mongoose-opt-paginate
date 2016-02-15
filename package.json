@@ -1,6 +1,6 @@
 {
   "name": "mongoose-opt-paginate",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "Optimized pagination using indexes (no cursor.skip) with fallback. Used with Mongoose + Express.",
   "main": "index.js",
   "dependencies": {
@@ -40,7 +40,9 @@
     "mongodb",
     "optimized",
     "range",
-    "index"
+    "index",
+    "express",
+    "koa"
   ],
   "author": "Matthew Tesfaldet <tesfaldet@hotmail.com> (http://mtesfaldet.net/)",
   "license": "MIT",

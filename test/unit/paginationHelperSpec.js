@@ -1,7 +1,7 @@
 var should = require('chai').should(); // jshint ignore:line
 
-describe('expressPaginate', function () {
-	var expressPaginate = require('../../lib/expressPaginate');
+describe('paginationHelpers', function () {
+	var paginationHelpers = require('../../lib/paginationHelpers');
 
 	it('should set query parameters on call to setQueryParams', function(done) {
 		var req = {
@@ -12,7 +12,7 @@ describe('expressPaginate', function () {
 		},
 		defaultPageSize = 10,
 		maxPageSize = 50;
-		expressPaginate.setQueryParams(req, defaultPageSize, maxPageSize);
+		paginationHelpers.setQueryParams(req.query, defaultPageSize, maxPageSize);
 		req.query.should.not.be.empty;
 		req.query.page.should.equal(1);
 		req.query.currentPage.should.equal(req.query.page);
@@ -27,7 +27,7 @@ describe('expressPaginate', function () {
 				pageSize: 60
 			}
 		};
-		expressPaginate.setQueryParams(req, defaultPageSize, maxPageSize);
+		paginationHelpers.setQueryParams(req.query, defaultPageSize, maxPageSize);
 		req.query.should.deep.equal({
 			page: 1,
 			currentPage: 1,
@@ -39,7 +39,7 @@ describe('expressPaginate', function () {
 				pageSize: -1
 			}
 		};
-		expressPaginate.setQueryParams(req, null, null);
+		paginationHelpers.setQueryParams(req.query, null, null);
 		req.query.should.deep.equal({
 			currentPage: 1,
 			page: 1,
@@ -61,7 +61,7 @@ describe('expressPaginate', function () {
 			originalUrl: 'api/courses'
 		},
 		expectUrl = 'api/courses?sortBy=name&sortDirection=1&page=1&currentPage=5',
-		resultUrl = expressPaginate.firstPage(req);
+		resultUrl = paginationHelpers.firstPage(req, req.query);
 
 		resultUrl.should.equal(expectUrl);
 		done();
@@ -81,16 +81,16 @@ describe('expressPaginate', function () {
 		},
 		numPages = 10,
 		expectUrl = 'api/courses?before=X2lkPTU0MjQzMGZhYjZjOWIxMTUwMGNmZjdhZQ%253D%253D&sortBy=name&sortDirection=1&page=4&currentPage=5',
-		resultUrl = expressPaginate.prevPage(req, numPages);
+		resultUrl = paginationHelpers.prevPage(req, req.query, numPages);
 		resultUrl.should.equal(expectUrl);
 
 		numPages = 0,
-		resultUrl = expressPaginate.prevPage(req, numPages);
+		resultUrl = paginationHelpers.prevPage(req, req.query, numPages);
 		should.not.exist(resultUrl);
 
 		numPages = '0';
 		try {
-			expressPaginate.prevPage(req, numPages);
+			paginationHelpers.prevPage(req, req.query, numPages);
 		} catch (error) {
 			error.name.should.equal('InternalServerError');
 			error.status.should.equal(500);
@@ -114,16 +114,16 @@ describe('expressPaginate', function () {
 		},
 		numPages = 10,
 		expectUrl = 'api/courses?after=X2lkPTU1Nzg4MmQ4Njg0NDEyYWUyYzQyMjU2NA%253D%253D&sortBy=name&sortDirection=1&page=6&currentPage=5',
-		resultUrl = expressPaginate.nextPage(req, numPages);
+		resultUrl = paginationHelpers.nextPage(req, req.query, numPages);
 		resultUrl.should.equal(expectUrl);
 
 		numPages = 0,
-		resultUrl = expressPaginate.nextPage(req, numPages);
+		resultUrl = paginationHelpers.nextPage(req, req.query, numPages);
 		should.not.exist(resultUrl);
 
 		numPages = '0';
 		try {
-			expressPaginate.nextPage(req, numPages);
+			paginationHelpers.nextPage(req, req.query, numPages);
 		} catch (error) {
 			error.name.should.equal('InternalServerError');
 			error.status.should.equal(500);
@@ -147,7 +147,7 @@ describe('expressPaginate', function () {
 		},
 		numPages = 10,
 		expectUrl = 'api/courses?sortBy=name&sortDirection=1&page=10&currentPage=5&last=true',
-		resultUrl = expressPaginate.lastPage(req, numPages);
+		resultUrl = paginationHelpers.lastPage(req, req.query, numPages);
 
 		resultUrl.should.equal(expectUrl);
 		done();
@@ -166,7 +166,7 @@ describe('expressPaginate', function () {
 			originalUrl: 'api/courses'
 		},
 		expectUrl = 'api/courses?before=X2lkPTU0MjQzMGZhYjZjOWIxMTUwMGNmZjdhZQ%253D%253D&sortBy=date&sortDirection=1&page=5&currentPage=5',
-		resultUrl = expressPaginate.href(req)({sortBy: 'date'});
+		resultUrl = paginationHelpers.href(req)({sortBy: 'date'});
 
 		resultUrl.should.equal(expectUrl);
 		done();

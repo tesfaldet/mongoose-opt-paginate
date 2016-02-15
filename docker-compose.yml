@@ -1,0 +1,5 @@
+mongo:
+  image: mongo:3.0.9
+  net: "host"
+  volumes:
+  - ~/db:/data/db
