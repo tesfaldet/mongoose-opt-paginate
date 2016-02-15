@@ -1,6 +1,7 @@
 var mongoose = require('mongoose'),
-	should = require('chai').should(), // jshint ignore:line
 	_ = require('lodash');
+
+require('chai').should();
 
 describe('mongoosePaginate', function () {
 	var mongoosePaginate = require('../../lib/mongoosePaginate');
