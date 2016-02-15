@@ -13,4 +13,4 @@ install:
 before_script:
   - npm view mongoose-opt-paginate
 script:
-  - npm run ci
+  - npm test

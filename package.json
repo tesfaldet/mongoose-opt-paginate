@@ -11,21 +11,18 @@
   },
   "devDependencies": {
     "chai": "^3.0.0",
+    "eslint": "^2.0.0",
     "istanbul": "^0.3.22",
-    "jscs": "^2.2.1",
-    "jshint": "^2.8.0",
     "mocha": "^2.2.5",
-    "mongoose": "^4.1.10",
+    "mongoose": "^4.4.3",
     "require-directory": "^2.1.1"
   },
   "peerDependencies": {
     "mongoose": "^4.0.4"
   },
   "scripts": {
-    "ci": "npm run lint && npm test",
-    "lint": "jshint . && jscs .",
-    "unit": "istanbul cover --root lib --dir ./coverage/unit ./node_modules/mocha/bin/_mocha -- test/unit",
-    "test": "npm run unit && istanbul report"
+    "test": "istanbul cover --root lib --dir ./coverage/unit ./node_modules/mocha/bin/_mocha -- test/unit",
+    "posttest": "eslint ."
   },
   "repository": {
     "type": "git",
