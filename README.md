@@ -1,4 +1,6 @@
 # Mongoose Optimized Paginate (MOP)
+[![Build Status](https://travis-ci.org/tesfaldet/mongoose-opt-paginate.svg?branch=master)](https://travis-ci.org/tesfaldet/mongoose-opt-paginate)
+
 Optimized pagination using indexes (no cursor.skip) with fallback. Used with Mongoose + Express, or Mongoose + Koa.
 
 ### Getting Started
